@@ -1,39 +1,13 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-node_modules
-.pnp
-.pnp.js
-
-# testing
-coverage
-
-# next.js
-.next/
-out/
-build
-
-# misc
+*.log
+echo "##active_line2##"
+tmp/*
+echo "##active_line3##"
+*.pyc
+echo "##active_line4##"
 .DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
+echo "##active_line5##"
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# turbo
-.turbo
-
-# vercel
-.vercel
-
-# typescript
-tsconfig.tsbuildinfo
+echo "##active_line6##"
+/node_modules/
+echo "##active_line7##"
+/dist/
